@@ -1,0 +1,11 @@
+.env
+topics/
+service-account-key.json
+test*
+_notes*
+
+.venv/
+__pycache__/
+
+*.png
+*.pickle
