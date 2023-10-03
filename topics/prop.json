@@ -1,0 +1,82 @@
+{
+	"header": "Prop Scraper https://docs.google.com/spreadsheets/d/17d16RB-CDrhuIgx583divmK4OXX5c_Otb6LbZUQJIB4/edit#gid=0",
+	"pickle" : {
+		"save": true,
+		"path": "topics/prop.pickle"
+	},
+	"email": {
+		"send": true,
+		"address": "ffrancoismmartineau@gmail.com",
+		"subject": "Nouvelles annonces de vans trouvées",
+		"path": "topics/prop_email.html"
+	},
+	"cols": [["image", 4], ["name", 1], ["price", 2], ["kilo", 3], ["link", 0], ["time", 5]],
+	"pages": [
+		{
+			"name": "e250",
+			"site": "Kijiji",
+			"filter": "van",
+			"sheet": {
+				"name": "econolines",
+				"id": "0",
+				"spreadsheet_id": "17d16RB-CDrhuIgx583divmK4OXX5c_Otb6LbZUQJIB4"
+			},
+			"url": "https://www.kijiji.ca/b-ville-de-quebec/ford-e-250/k0l1700124?dc=true&sort=dateDesc"
+		},
+		{
+			"name": "e350",
+			"site": "Kijiji",
+			"filter": "van",
+			"sheet": {
+				"name": "econolines",
+				"id": "0",
+				"spreadsheet_id": "17d16RB-CDrhuIgx583divmK4OXX5c_Otb6LbZUQJIB4"
+			},			
+			"url": "https://www.kijiji.ca/b-ville-de-quebec/ford-e350/k0l9001?dc=true&sort=dateDesc"
+		},
+		{
+			"name": "e250",
+			"site": "MarketPlace",
+			"filter": "van",
+			"sheet": {
+				"name": "econolines",
+				"id": "0",
+				"spreadsheet_id": "17d16RB-CDrhuIgx583divmK4OXX5c_Otb6LbZUQJIB4"
+			},
+			"url": "https://www.facebook.com/marketplace/quebec/search?query=ford%20e%20250"
+		},
+		{
+			"name": "e350",
+			"site": "MarketPlace",
+			"filter": "van",
+			"sheet": {
+				"name": "econolines",
+				"id": "0",
+				"spreadsheet_id": "17d16RB-CDrhuIgx583divmK4OXX5c_Otb6LbZUQJIB4"
+			},
+			"url": "https://www.facebook.com/marketplace/quebec/search?query=ford%20e%20350"
+		},
+		{
+			"name": "nv200",
+			"site": "Kijiji",
+			"filter": "nv200",
+			"sheet": {
+				"name": "nv200",
+				"id": "1421934554",
+				"spreadsheet_id": "17d16RB-CDrhuIgx583divmK4OXX5c_Otb6LbZUQJIB4"
+			},
+			"url": "https://www.kijiji.ca/b-autos-camions/quebec/nv200/k0c174l9001?sort=priceAsc"
+		},
+		{
+			"name": "nv200",
+			"site": "MarketPlace",
+			"filter": "nv200",
+			"sheet": {
+				"name": "nv200",
+				"id": "1421934554",
+				"spreadsheet_id": "17d16RB-CDrhuIgx583divmK4OXX5c_Otb6LbZUQJIB4"
+			},
+			"url": "https://www.facebook.com/marketplace/quebec/search?sortBy=best_match&query=nv%20200&exact=false"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"header": "Misc https://docs.google.com/spreadsheets/d/1L7xaW7YUb5Vlw_xRyl6gTBVbBEsy2COQptoA5NCaGPE/edit#gid=0",
+	"pickle" : {
+		"save": true,
+		"path": "topics/misc.pickle"
+	},
+	"email": {
+		"send": true,
+		"address": "ffrancoismmartineau@gmail.com",
+		"subject": "Nouvelles annonces trouvées",
+		"path": "topics/misc_email.html"
+	},
+	"cols": [["image", 3], ["name", 1], ["price", 2], ["link", 0], ["time", 4]],
+	"pages": [
+		{
+			"name": "projecteurs",
+			"site": "MarketPlace",
+			"filter": "projecteurs",
+			"sheet": {
+				"name": "projecteurs",
+				"id": "0",
+				"spreadsheet_id": "1L7xaW7YUb5Vlw_xRyl6gTBVbBEsy2COQptoA5NCaGPE"
+			},
+			"url": "https://www.facebook.com/marketplace/quebec/search/?query=projecteur&exact=false"
+		}
+	]
+}

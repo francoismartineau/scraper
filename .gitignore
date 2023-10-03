@@ -1,0 +1,8 @@
+.env
+credentials*
+token*
+test*
+_notes*
+
+venv/
+__pycache__/

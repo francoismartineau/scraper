@@ -1,0 +1,82 @@
+{
+	"header": "Skate Scraper https://docs.google.com/spreadsheets/d/1dwBd3YSyoSqTkjgBwTty5Uyb9F8OyxfYguK8N18mThU/edit#gid=0",
+	"pickle" : {
+		"save": true,
+		"path": "topics/skate.pickle"
+	},
+	"email": {
+		"send": true,
+		"address": "ffrancoismmartineau@gmail.com",
+		"subject": "Nouvelles annonces de skate trouvées",
+		"path": "topics/skate_email.html"
+	},
+	"cols": [["image", 3], ["name", 1], ["price", 2], ["link", 0], ["time", 4]],
+	"pages": [
+		{
+			"name": "decks",
+			"site": "Exo",
+			"filter": "decks",
+			"sheet": {
+				"name": "decks",
+				"id": "0",
+				"spreadsheet_id": "1dwBd3YSyoSqTkjgBwTty5Uyb9F8OyxfYguK8N18mThU"
+			},
+			"url": "https://exoshop.com/collections/decks?usf_sort=price&uff_ggs9f2_option%3ASize=8.0%20in"
+		},
+		{
+			"name": "decks",
+			"site": "Exo",
+			"filter": "decks",
+			"sheet": {
+				"name": "decks",
+				"id": "0",
+				"spreadsheet_id": "1dwBd3YSyoSqTkjgBwTty5Uyb9F8OyxfYguK8N18mThU"
+			},			
+			"url": "https://exoshop.com/collections/decks?usf_sort=price&uff_ggs9f2_option%3ASize=8.0%20in"
+		},
+		{
+			"name": "shoes",
+			"site": "Exo",
+			"filter": "shoes",
+			"sheet": {
+				"name": "shoes",
+				"id": "1580044338",
+				"spreadsheet_id": "1dwBd3YSyoSqTkjgBwTty5Uyb9F8OyxfYguK8N18mThU"
+			},
+			"url": "https://exoshop.com/collections/mens-shoes?uff_ggs9f2_option%3ASize=11&uff_ka2s1m_vendor=Emerica&uff_yahga5_tags=Men&usf_sort=price"
+		},
+		{
+			"name": "shoes",
+			"site": "FiveO",
+			"filter": "shoes",
+			"sheet": {
+				"name": "shoes",
+				"id": "1580044338",
+				"spreadsheet_id": "1dwBd3YSyoSqTkjgBwTty5Uyb9F8OyxfYguK8N18mThU"
+			},
+			"url": "https://www.5-0.com/en/shop?order=list_price+asc&category=68"
+		},
+		{
+			"name": "decks",
+			"site": "Empire",
+			"filter": "decks",
+			"sheet": {
+				"name": "decks",
+				"id": "0",
+				"spreadsheet_id": "1dwBd3YSyoSqTkjgBwTty5Uyb9F8OyxfYguK8N18mThU"
+			},
+			"url": "https://thinkempire.com/fr/collections/regular-skateboard-decks#/filter:ss_sizes:8$25E2$2580$2599$25E2$2580$2599/sort:ss_price:asc"
+		},
+		{
+			"name": "shoes",
+			"site": "Empire",
+			"filter": "shoes",
+			"sheet": {
+				"name": "shoes",
+				"id": "1580044338",
+				"spreadsheet_id": "1dwBd3YSyoSqTkjgBwTty5Uyb9F8OyxfYguK8N18mThU"
+			},
+			"url": "https://thinkempire.com/fr/collections/men-shoes#/filter:vendor:Emerica/filter:ss_sizes:11/sort:ss_price:asc"
+		}
+	]
+}
