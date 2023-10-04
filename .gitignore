@@ -6,3 +6,5 @@ _notes*
 
 venv/
 __pycache__/
+
+*.png
