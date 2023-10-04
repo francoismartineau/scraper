@@ -10,6 +10,9 @@ Items are listed in a Google Sheets document.
 User is notified by an email linking to the sheets document.
 
 .src/sites.py specifies how to get qualities of items from a site
+
 .src/filters.py gets qualities from an items and decides if the item is interesting. Qualities that are likely to eliminate an item are scraped first. The order is specified in topics/*.json "cols":[[ "quality", nth_scraped ], ...]
+
 .src/exceptions.py ensures an error will be clearly identified as coming from scraping which quality in which site
+
 .src/data.py loads the topic and saves seen items ids to a .pickle file. This way, an item will never be found twice. The user can then delete unwanted results once and forever.
